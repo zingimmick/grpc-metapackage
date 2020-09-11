@@ -1,0 +1,21 @@
+{
+  "name": "zing/grpc-meta",
+  "keywords": ["grpc", "composer", "meta"],
+  "description": "gRPC meta is a simple composer inclusion list of gRPC: no API, simply require it",
+  "type": "metapackage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zingimmick",
+      "email": "zingimmick@outlook.com"
+    }
+  ],
+  "require": {
+    "ext-grpc": "*",
+    "grpc/grpc": "^1.30",
+    "google/protobuf": "^3.12.2"
+  },
+  "suggest": {
+    "ext-protobuf": "For better performance, install the protobuf C extension."
+  }
+}
