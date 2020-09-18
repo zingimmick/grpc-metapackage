@@ -13,8 +13,8 @@
   "require": {
     "php": ">=5.5",
     "ext-grpc": "*",
-    "grpc/grpc": "^1.21.3",
-    "google/protobuf": "^3.7.0"
+    "grpc/grpc": "^1.22.0",
+    "google/protobuf": "^3.8.0"
   },
   "suggest": {
     "ext-protobuf": "For better performance, install the protobuf C extension."
