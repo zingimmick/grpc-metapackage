@@ -79,4 +79,4 @@ extension=protobuf.so
 
 ## License
 
-Package Skeleton PHP is an open-sourced software licensed under the [MIT license](LICENSE).
+gRPC metapackage is an open-sourced software licensed under the [MIT license](LICENSE).
