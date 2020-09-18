@@ -13,7 +13,7 @@
   "require": {
     "php": ">=5.5",
     "ext-grpc": "*",
-    "grpc/grpc": "^1.16.1",
+    "grpc/grpc": "^1.17.2",
     "google/protobuf": "^3.6.1"
   },
   "suggest": {
