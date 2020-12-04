@@ -17,7 +17,7 @@ Please check the [gRPC](https://github.com/grpc/grpc/tree/master/src/php#overvie
 
 #### Install package
 
-> **Requires [PHP 5.6.0+](https://php.net/releases/)**
+> **Requires [PHP 7.0.0+](https://php.net/releases/)**
 
 Require Package gRPC metapackage using [Composer](https://getcomposer.org):
 
