@@ -44,6 +44,12 @@ And add this to your `php.ini` file:
 extension=protobuf.so
 ```
 
+## Current Version
+
+| gRPC | protobuf | package | 
+| --- | --- | --- | 
+| [![Latest Stable Version](https://poser.pugx.org/grpc/grpc/v)](https://packagist.org/packages/grpc/grpc) | [![Latest Stable Version](https://poser.pugx.org/google/protobuf/v)](https://packagist.org/packages/google/protobuf) | [![Latest Stable Version](https://poser.pugx.org/zing/grpc-metapackage/v)](https://packagist.org/packages/zing/grpc-metapackage) |
+
 ## gRPC and protobuf version Compatibility
 
 | gRPC | protobuf | package | Supported |

@@ -1,8 +1,10 @@
 name: tests
 
 on:
-  push:
   pull_request:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '0 0 * * *'
 
@@ -33,7 +35,7 @@ jobs:
           key: ${{ env.key }}
 
       - name: Cache extensions
-        uses: actions/cache@v2.1.5
+        uses: actions/cache@v2.1.4
         with:
           path: ${{ steps.extcache.outputs.dir }}
           key: ${{ steps.extcache.outputs.key }}
