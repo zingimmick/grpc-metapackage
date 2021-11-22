@@ -87,6 +87,7 @@ extension=protobuf.so
 | v1.36.0 | 3.14.0 | 1.30.0 | :white_check_mark: |
 | v1.38.0 | 3.15.8 | 1.31.0 | :white_check_mark: |
 | v1.39.0 | 3.15.8 | 1.32.0 | :white_check_mark: |
+| v1.42.0 | 3.18.1 | 1.33.0 | :white_check_mark: |
 
 ## License
 
