@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php: [7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1]
+        php: ['7.0', 7.1, 7.2, 7.3, 7.4, '8.0', 8.1]
         stability: [prefer-lowest, prefer-stable]
     env:
       extensions: grpc
@@ -28,7 +28,7 @@ jobs:
 
       - name: Setup cache environment
         id: extcache
-        uses: shivammathur/cache-extensions@1.8.2
+        uses: shivammathur/cache-extensions@1.9.0
         with:
           php-version: ${{ matrix.php }}
           extensions: ${{ env.extensions }}
