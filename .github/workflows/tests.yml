@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php: ['7.0', 7.1, 7.2, 7.3, 7.4, '8.0', 8.1]
+        php: ['7.0', 7.1, 7.2, 7.3, 7.4, '8.0', 8.1, 8.2]
         stability: [prefer-lowest, prefer-stable]
     env:
       extensions: grpc
@@ -42,7 +42,7 @@ jobs:
           restore-keys: ${{ steps.extcache.outputs.key }}
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@2.21.2
+        uses: shivammathur/setup-php@2.24.0
         with:
           php-version: ${{ matrix.php }}
           tools: pecl, composer:v2
