@@ -4,6 +4,11 @@
   "description": "gRPC meta is a simple composer inclusion list of gRPC: no API, simply require it",
   "type": "metapackage",
   "license": "MIT",
+  "homepage": "https://github.com/zingimmick/grpc-metapackage",
+  "support": {
+    "issues": "https://github.com/zingimmick/grpc-metapackage/issues",
+    "source": "https://github.com/zingimmick/grpc-metapackage"
+  },
   "authors": [
     {
       "name": "zingimmick",
