@@ -16,6 +16,10 @@
       "homepage": "https://github.com/zingimmick"
     }
   ],
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist"
+  },
   "require": {
     "php": ">=7.0",
     "ext-grpc": "*",
