@@ -28,5 +28,7 @@
   },
   "suggest": {
     "ext-protobuf": "For better performance, install the protobuf C extension."
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
