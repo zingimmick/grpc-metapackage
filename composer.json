@@ -1,6 +1,6 @@
 {
   "name": "zing/grpc-metapackage",
-  "keywords": ["grpc", "composer", "meta"],
+  "keywords": ["grpc", "composer", "metapackage"],
   "description": "gRPC meta is a simple composer inclusion list of gRPC: no API, simply require it",
   "type": "metapackage",
   "license": "MIT",
