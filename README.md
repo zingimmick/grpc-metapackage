@@ -35,7 +35,7 @@ $ [sudo] pecl install protobuf
 or specific version
 
 ``` sh
-$ [sudo] pecl install protobuf-3.21.6
+$ [sudo] pecl install protobuf-3.23.4
 ```
 
 And add this to your `php.ini` file:
@@ -52,8 +52,8 @@ extension=protobuf.so
 
 ## gRPC and protobuf version Compatibility
 
-| gRPC    | protobuf  | package | Supported |
-|---------|-----------|---------| --- |
+| gRPC    | protobuf  | package | Supported          |
+|---------|-----------|---------|--------------------|
 | v1.0.0  | 3.0.0(GA) | 1.0.0   | :white_check_mark: |
 | v1.0.1  | 3.0.2     | 1.1.0   | :white_check_mark: |
 | v1.1.0  | 3.1.0     | 1.2.0   | :white_check_mark: |
@@ -89,6 +89,7 @@ extension=protobuf.so
 | v1.39.0 | 3.15.8    | 1.32.0  | :white_check_mark: |
 | v1.42.0 | 3.18.1    | 1.33.0  | :white_check_mark: |
 | v1.52.0 | 3.21.6    | 1.34.0  | :white_check_mark: |
+| v1.57.0 | 3.23.4    | 1.35.0  | :white_check_mark: |
 
 ## License
 
