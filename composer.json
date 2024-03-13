@@ -24,7 +24,7 @@
     "php": ">=7.0",
     "ext-grpc": "*",
     "grpc/grpc": "^1.52",
-    "google/protobuf": "^3.21.6"
+    "google/protobuf": "^3.21.6 || ^4.0.0"
   },
   "suggest": {
     "ext-protobuf": "For better performance, install the protobuf C extension."
