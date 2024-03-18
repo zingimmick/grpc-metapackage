@@ -35,14 +35,14 @@ jobs:
           key: ${{ env.key }}
 
       - name: Cache extensions
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ steps.extcache.outputs.dir }}
           key: ${{ steps.extcache.outputs.key }}
           restore-keys: ${{ steps.extcache.outputs.key }}
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@2.28.0
+        uses: shivammathur/setup-php@2.30.0
         with:
           php-version: ${{ matrix.php }}
           tools: pecl, composer:v2
