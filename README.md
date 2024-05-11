@@ -1,6 +1,6 @@
 # gRPC metapackage
 <p align="center">
-<a href="https://github.com/zingimmick/grpc-metapackage/actions"><img src="https://github.com/zingimmick/grpc-metapackage/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/zingimmick/grpc-metapackage/actions"><img src="https://github.com/zingimmick/grpc-metapackage/actions/workflows/tests.yml/badge.svg?branch=master" alt="Build Status"></a>
 <a href="https://packagist.org/packages/zing/grpc-metapackage"><img src="https://poser.pugx.org/zing/grpc-metapackage/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/zing/grpc-metapackage"><img src="https://poser.pugx.org/zing/grpc-metapackage/downloads" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/zing/grpc-metapackage"><img src="https://poser.pugx.org/zing/grpc-metapackage/v/unstable.svg" alt="Latest Unstable Version"></a>
