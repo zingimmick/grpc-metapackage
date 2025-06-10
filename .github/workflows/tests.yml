@@ -42,7 +42,7 @@ jobs:
           restore-keys: ${{ steps.extcache.outputs.key }}
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@2.33.0
+        uses: shivammathur/setup-php@2.34.0
         with:
           php-version: ${{ matrix.php }}
           tools: pecl, composer:v2
